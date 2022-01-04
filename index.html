@@ -1,39 +1,102 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css" />
-<title>Special Stat Sheet</title>
-<head>
-  Special Stat Sheet
-</head>
-<body>
-  <section>
-    <p class="stat__total">10</p>
-    <h1>Total Points</h1>
-  </section>
-  <section class="stats__section">
-    <p class="stat__num">0</p>
-    <button class="btn__minus" id="0">-</button>
-    <button class="btn__plus" id="0">+</button>
-    <p class="stat__num">0</p>
-    <button class="btn__minus" id="1">-</button>
-    <button class="btn__plus" id="1">+</button>
-    <p class="stat__num">0</p>
-    <button class="btn__minus" id="2">-</button>
-    <button class="btn__plus" id="2">+</button>
-    <p class="stat__num">0</p>
-    <button class="btn__minus" id="3">-</button>
-    <button class="btn__plus" id="3">+</button>
-    <p class="stat__num">0</p>
-    <button class="btn__minus" id="4">-</button>
-    <button class="btn__plus" id="4">+</button>
-    <p class="stat__num">0</p>
-    <button class="btn__minus" id="5">-</button>
-    <button class="btn__plus" id="5">+</button>
-    <p class="stat__num">0</p>
-    <button class="btn__minus" id="6">-</button>
-    <button class="btn__plus" id="6">+</button>
-    <br />
-    <br />
-    <button class="btn__reset">Reset</button>
-  </section>
-</body>
-<script src="index.js"></script>
+<html lang="en">
+  <head>
+    <script defer src="script.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Special Stat Sheet</title>
+  </head>
+  <body>
+    <header>
+      <div class="special-image-container">
+        <img class="special-image" src="SPECIAL.png" alt="Special" />
+      </div>
+
+      <img src="vaultboy.png" alt="vault boy" class="vaultboy-image" />
+
+      <img
+        src="vaultboycomputer.png"
+        alt="vault boy on computer"
+        class="vaultboycomputer-image"
+      />
+
+      <h1>Special Stat Sheet</h1>
+
+      <h2>Total Points</h2>
+      <p class="point-total">10</p>
+    </header>
+
+    <div class="fallout-image-container">
+      <img
+        src="FO4specials.jpg"
+        alt="Fallout 4 Special Stats"
+        class="fallout-image"
+      />
+    </div>
+    <article class="stat-section">
+      <div class="stat-box">
+        <p class="stat__num">0</p>
+        <div class="btn-box">
+          <button class="0 btn__minus">-</button>
+          <button class="0 btn__plus">+</button>
+        </div>
+      </div>
+      <div class="stat-box">
+        <p class="stat__num">0</p>
+        <div class="btn-box">
+          <button class="1 btn__minus">-</button>
+          <button class="1 btn__plus">+</button>
+        </div>
+      </div>
+      <div class="stat-box">
+        <p class="stat__num">0</p>
+        <div class="btn-box">
+          <button class="2 btn__minus">-</button>
+          <button class="2 btn__plus">+</button>
+        </div>
+      </div>
+      <div class="stat-box">
+        <p class="stat__num">0</p>
+        <div class="btn-box">
+          <button class="3 btn__minus">-</button>
+          <button class="3 btn__plus">+</button>
+        </div>
+      </div>
+      <div class="stat-box">
+        <p class="stat__num">0</p>
+        <div class="btn-box">
+          <button class="4 btn__minus">-</button>
+          <button class="4 btn__plus">+</button>
+        </div>
+      </div>
+      <div class="stat-box">
+        <p class="stat__num">0</p>
+        <div class="btn-box">
+          <button class="5 btn__minus">-</button>
+          <button class="5 btn__plus">+</button>
+        </div>
+      </div>
+      <div class="stat-box">
+        <p class="stat__num">0</p>
+        <div class="btn-box">
+          <button class="6 btn__minus">-</button>
+          <button class="6 btn__plus">+</button>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="reset-container">
+        <button class="btn-reset">Reset</button>
+      </div>
+      <div class="urspecial-container">
+        <img
+          src="FO4Special.png"
+          alt="you're special"
+          class="urspecial-image"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
